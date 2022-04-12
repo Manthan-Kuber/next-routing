@@ -1,12 +1,11 @@
 import Link from "next/link";
 import { useRouter } from "next/router";
 
-
 const Home = () => {
   const router = useRouter();
   const handleClick = () => {
     console.log("Placing Order");
-    router.push('/product')
+    router.push("/product");
   };
   return (
     <>
